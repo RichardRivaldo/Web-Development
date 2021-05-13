@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(75deg, #4e80af, #aeb000);
+    color: darkblue;
+    font-family: "Lora", serif;
+    min-height: 90vh;
+}
+
+header {
+    font-size: 2rem;
+}
+
+header,
+form {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: #4e80af;
+    background-image: linear-gradient(80deg, #4456ddda, #4ad);
+}
+
+form button {
+    color: aqua;
+    background: cornflowerblue;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+form button:hover {
+    background: aqua;
+    color: cornflowerblue;
+}
+
+.todoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todos {
+    margin: 0.5rem;
+    background: wheat;
+    color: #4ad;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todos li {
+    flex: 1;
+}
+
+.todoItems {
+    padding: 0rem 1rem;
+}
+
+.deleteButton,
+.checkButton {
+    background: cornflowerblue;
+    color: darkblue;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.checkButton {
+    background: green;
+}
+
+.fa-check,
+.fa-trash {
+    pointer-events: none;
+}
+
+.check {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(30deg);
+    opacity: 0;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    color: navy;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.select::after {
+    content: "\25bc";
+    position: absolute;
+    background: rgb(86, 86, 209);
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: 0.3s all ease;
+}
+
+.select:hover::after {
+    background: lightskyblue;
+    color: aqua;
+}
