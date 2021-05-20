@@ -23,3 +23,10 @@
 // Catch the errors of failures by chaning catch to the execution
 // const promise = new Promise((resolve, reject) => {})
 // promise.then(callbacks).catch(error => console.log(error.message))
+
+/* Promise All */
+
+// We use Promise All to executes all promises at the same time
+// Because of that, each promise will not have to wait for each other to finish executing.
+// Also, the result will have to wait for all of the promises to done executing
+// Promise.all([promise1, promise2]).then()
