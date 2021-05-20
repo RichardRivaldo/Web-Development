@@ -15,8 +15,6 @@
 // After the creation phase, there is also execution phase
 // This phase will execute the scripts that we wrote
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Callstack */
 
 // JavaScript is a single thread asynchronous programming languages that read the scripts line by line
@@ -25,8 +23,6 @@
 // Callstacks are stacks of commands called for JS to keep track of executions in the program
 // If we call a new function, then a new execution context is created and pushed to the stack
 // If JS finished executing the function, then the function will be popped from the stack
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* this */
 
@@ -38,15 +34,11 @@
 // Be careful when declaring new functions, since a new keyword this will be made and this will have other reference
 // But, creating functions with arrow functions will not create a new keyword this
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Basic Objects */
 
 // In objects, we can store attributes as the state of the objects, can be called properties (props)
 // We can also store functions called method in the objects
 // We can also store new attributes and methods to the objects even after the initialization
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Call, Bind, Apply */
 
@@ -61,16 +53,12 @@
 // Apply -> Works similarly with Call
 // invokedFunction.apply(boundObject, [paramsInTheInvokedFunction])
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Object-Oriented */
 
 // Constructor
 // Usually made with function, and the name for the function is conventionally uppercase
 // To make new objects or instances, we can use the `new` keyword
 // `new` will make an empty object and also create the keyword `this`
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Prototype */
 
@@ -82,22 +70,16 @@
 // There is also wrapper in JS for primitive types such as string (String) or number (Number)
 // Strings created with the wrapper will be of type object, instead of string
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Prototypal Inheritance */
 
 // To do inheritance, we can use Call to call parent class's constructor and bind the keyword `this` that will refer the child class
 // To inherit methods, we can set the child's class prototype with Object.create(parent.prototype)
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Class */
 
 // Aside from creating object constructor using function, we can use `Class`
 // In the class, we can define the constructor with the `constructor` keyword
 // We can also define methods inside the class, and the method will be automatically stored in the prototype
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Inheritance */
 

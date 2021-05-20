@@ -12,8 +12,6 @@
 // We can create a function inside an object, or store a function to a variable
 // const thisVariableStore = function(){}
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Primitive vs Reference Type */
 
 // Reference types are like arrays and objects
@@ -25,13 +23,9 @@
 // When we update `new`, `old` also got updated because the pointer used for the
 // reference is the same
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Ternary Operator */
 // Short Version of if-else, same with C or other languages ternary
 // (conditions ? whatHappensIfTrue: elseIfWrong)
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* DOM */
 
@@ -47,8 +41,6 @@
 // We can use the local and session storage
 // Session storage will reset the contents saved into it after a session has ended, i.e. closed or refreshed.
 // Local storage is not volatile like session storage
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Events */
 

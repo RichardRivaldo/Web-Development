@@ -7,14 +7,10 @@
 // In short, a function that calls and use another function
 // function thisFunctionCalls(AnotherFunction)
 
-//----------------------------------------------------------------------------------------------------------------//
-
 /* Anonymous Function */
 
 // Function declared without any name for it
 // Usually a one-time used function
-
-//----------------------------------------------------------------------------------------------------------------//
 
 /* Arrow Function */
 
